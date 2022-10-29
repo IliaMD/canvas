@@ -22,7 +22,7 @@ const sketch = () => {
         y = iy + (h + gap) * j;
 
         context.beginPath();
-        context.rect(x, y, w, h);
+        context.rect(0, 0, 400, 400);
         context.stroke();
 
         if (Math.random() > 0.5) {
